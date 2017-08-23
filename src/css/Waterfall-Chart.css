@@ -1,0 +1,56 @@
+    body, html {
+        width: 100%;
+    }
+
+    .bar.total rect {
+        fill: rgba(52, 204, 246, 1);
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .graph-display {
+        margin: auto;
+    }
+
+    .bar.positive rect {
+        fill: darkolivegreen;
+    }
+
+    .bar.negative rect {
+        fill: crimson;
+    }
+
+    .bar line.connector {
+        stroke: grey;
+        stroke-dasharray: 3;
+    }
+
+    .bar text {
+        fill: black;
+        font: 12px sans-serif;
+        text-anchor: middle;
+    }
+
+    .axis text {
+        font: 10px sans-serif;
+    }
+
+    .axis path, .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .tooltip {
+        position: absolute;
+        text-align: center;
+        padding: 2px;
+        background: rgba(0, 0, 0, 0.8);
+        border: 2px solid #141414;
+        border-radius: 8px;
+        pointer-events: none;
+        font-size: 5px;
+        color: #FFFFFF;
+    }

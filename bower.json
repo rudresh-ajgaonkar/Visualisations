@@ -1,0 +1,28 @@
+{
+  "name": "d3charts",
+  "authors": [
+    "rudy <rajgaonkar@in4ins.com>"
+  ],
+  "description": "Basic Template Needed while making any kind of d3 based project mockup",
+  "main": "",
+  "keywords": [
+    "d3",
+    "mockup",
+    "waterfall",
+    "chart"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "d3": "^4.2.8"
+  }
+}
